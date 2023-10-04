@@ -1,0 +1,77 @@
+/* Global styles come from external css https://codepen.io/GreenSock/pen/gOWxmWG */
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(16, 82, 67);
+}
+  
+
+  
+
+.container{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top:50px;
+   
+    position: absolute;
+}
+
+.ballsize{
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;   
+    position: absolute;
+    z-index: 130;
+}
+
+.anim{
+
+    margin-top: 40vh;
+
+    
+    
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+    /* background-color: rgb(4, 112, 79); */
+}
+
+
+.positionf{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    
+
+}
+
+
+.positions{
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    top:150px;
+    left: 180px;
+    visibility: hidden;
+    
+
+}
+
+
+
+
+
+
+
