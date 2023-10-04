@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(16, 82, 67);
+    background-color: rgb(7, 94, 53);
 }
   
 
@@ -19,8 +19,8 @@
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     left: 50px;
     top:50px;
    
@@ -62,8 +62,8 @@ img{
     position: absolute;
     width: 500px;
     height: 20px;
-    top:150px;
-    left: 180px;
+    top:235px;
+    left: 270px;
     visibility: hidden;
     
 
