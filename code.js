@@ -1,6 +1,7 @@
 gsap.registerPlugin(MotionPathPlugin);
 
 
+
 var tl = gsap.timeline()
 
 
@@ -19,7 +20,7 @@ tl.fromTo(".container img", {opacity: 0,  }, {opacity: 100, duration: 2,stagger:
     "-=2.5"
 )
 
-gsap.fromTo(".match",{y:-40,opacity:0},{y:80,opacity:100,duration:1,ease:"back"},6)
+gsap.fromTo(".matchmain",{y:-40,opacity:0},{y:80,opacity:100,duration:1,ease:"back"},6)
 
 tl.repeat(-1)
 
