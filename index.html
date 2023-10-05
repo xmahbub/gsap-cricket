@@ -99,7 +99,7 @@
         <div id="button" class="button"><span>+</span></div>
 
         
-        <div class="matchmain">
+        <div class="matchmain" id="link">
             <div class="match">
 
             
@@ -149,8 +149,8 @@
         
 
         const text = new SplitText(".text");
-        console.log(text)
-        gsap.fromTo(text.chars,{opacity:0,y:0},{opacity:100,stagger:0.05,y:20,duration:2,ease:"back.out",repeat:-1},6)
+        //console.log(text)
+        gsap.fromTo(text.chars,{opacity:0,y:0},{opacity:100,stagger:0.05,y:10,duration:2,ease:"back.out",repeat:-1},6)
         
     </script>
    

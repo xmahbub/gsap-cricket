@@ -31,6 +31,10 @@ document.getElementById("button").onclick = ()=>{
     anim.style.display='none';
 }
 
+document.getElementById("link").onclick = ()=>{
+    console.log("link")
+    window.location.href = "https://www.tsports.com.bd/";
+}
 
 
 
