@@ -21,6 +21,13 @@ tl.fromTo(".container img", {opacity: 0,  }, {opacity: 100, duration: 2,stagger:
 
 tl.repeat(-1)
 
+document.getElementById("button").onclick = ()=>{
+    console.log("clicked")
+    tl.pause();
+    var anim = document.getElementById("anim")
+    anim.style.display='none';
+}
+
 
 
 
