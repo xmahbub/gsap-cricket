@@ -73,11 +73,11 @@
 
 .button{
     background-color: brown;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     position: relative;
-    left: 50%;
-    top:0;
+    left: 80%;
+    top:10%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -88,6 +88,10 @@
     border-radius: 50%;
     color: azure;
     cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    font-size: medium;
     
 }
 
