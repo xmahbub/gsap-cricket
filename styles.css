@@ -18,7 +18,7 @@
     
 }
 
-img{
+.container img{
     
     width: 350px;
     height: 350px;
@@ -91,6 +91,42 @@ img{
     
 }
 
+.match{
+    position: relative;
+    /* background-color: rgb(76, 63, 251); */
+    width: 200px;
+    height: 100px;
 
+    left: 50%;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
 
+    z-index: 100;
+    
+    
+}
+
+/* .team{
+    width: 40%;
+    height: 40%;
+    background-color: aquamarine;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+} */
+
+.resize{
+    width:auto;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.vs{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: blanchedalmond;
+}
 
