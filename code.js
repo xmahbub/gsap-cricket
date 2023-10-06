@@ -8,7 +8,8 @@ var tl = gsap.timeline()
 var tl2 = gsap.timeline()
   
 
-tl.to('.character',4,{backgroundPosition: "-8700px",ease:SteppedEase.config(29)}).to('.emty',1,{},)
+tl.to('.character',4,{backgroundPosition: "-9300px",ease:SteppedEase.config(31)}).to('.emty',1,{},)
+
 .fromTo(".ballsize",{opacity:0},{opacity:100,duration:3,motionPath:{
     path:"M1 39.8142C90.7913 42.3226 137.496 48.879 216.258 67C326.313 35.5817 388.858 18.7393 516 3",
     align: "#ballpath",},},3
