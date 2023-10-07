@@ -57,7 +57,7 @@
 
             </div>
 
-            <div class="text"><h3>Watch Live on Tspost</h3></div>
+            <div class="text"><h3>Watch Live on <span class="tsports">T</span>sports</h3></div>
 
             <div class="emty"></div>
 
@@ -78,22 +78,13 @@
 
     
 
-    
-
-    
-
-    
-    <!-- <script src="./SplitTextPlugin.min.js"></script>  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
 
     <script type="module">
         
         import { SplitText } from "./splitText.mjs"
-        
-
         const text = new SplitText(".text");
-        //console.log(text)
         gsap.fromTo(text.chars,{opacity:0,y:0},{opacity:100,stagger:0.05,y:10,duration:2,ease:"back.out",repeat:-1},6)
         
     </script>
